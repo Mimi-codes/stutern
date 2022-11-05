@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10rem;
+    line-height: 2rem;
+    background-image: url(./assets/abula_2_gbegiri.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(9px);
+    /* color: white; */
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.origin {
+    text-align: justify;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 16rem;
+  }
+
+ th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    border-right: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  img {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    border-radius: 50%;
+  }
+
+  ul {
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+
+  ul > li {
+    margin-right: 1rem;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin-top: 0.7rem;
+  }
+
+  ul  p {
+    border-top: 2px solid gray;
+  }
