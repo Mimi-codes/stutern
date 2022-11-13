@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+text-align: center;
+}
+
+ h4 {
+    font-size: 18px;
+}
+
+#section-a p {
+    color: green;
+    font-size: 14px;
+}
+
+#section-b p {
+    color: red;
+    font-size: 14px;
+}
+
+
+#section-c p {
+ color: blue; 
+    font-size: 14px;
+}
+
+table {
+       border-collapse: collapse;
+    width: 100%;
+  }
+ 
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: blue;
+  }
