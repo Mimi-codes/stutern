@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Buda&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./assets/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15rem;
+}
+
+.nav {
+    margin: 0 1.5rem;
+}
+
+.logo {
+width: 10rem;
+}
+
+.sign_in_btn {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: #e50914;
+    padding: 0.5rem 1rem;
+    float: right;
+    margin-top: 1.5rem;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    margin-top: 14rem;
+}
+
+.hero-text h4 {
+    font-size: 3rem;
+}
+
+.hero-text p:nth-of-type(1) {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.hero-text p:nth-of-type(2) {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.email-input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 28rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.get_started_btn {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: #e50914;
+    padding: 0.5rem 1rem;
+}
+
+.caret_right {
+    padding-left: 0.5rem;
+    width: 2rem;
+}
+
+.rule {
+    height: 0.5rem;
+    background-color: #222222;
+    border: none;
+}
+
+/* tv */
+#tv, #mobile, #kids, #everywhere, #faq, #footer  {
+    display: flex;
+    color: white;
+    background: #000;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.tv_text, .kids_text {
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+
+.everywhere_text {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mobile_text {
+    margin-right: 7rem;
+    margin-top: 5rem;
+}
+
+.tv_text h4, .mobile_text h4, .everywhere_text h4, .kids_text h4, #faq h4 {
+font-size: 3.1rem;
+}
+
+.tv_text p, .mobile_text p {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+
+.everywhere_text p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-right: 45rem;
+}
+
+.tv_img {
+    width: 28rem;
+    height: 23rem;
+    margin-left: 6rem;
+    margin-right: 9rem;
+}
+
+.mobile_img {
+    width: 29rem;
+    height: 20rem;
+    margin-left: 6rem;
+    margin-right: 9rem;
+}
+
+.kids_img {
+    width: 30rem;
+    margin-left: 5rem;
+}
+
+.kids_text p {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+}
+
+#faq {
+    display: block;
+}
+
+#faq h4 {
+    text-align: center;
+}
+
+.faq_box {
+    margin-top: 3rem;
+}
+
+.bg {
+    padding: 1.5rem 2rem;
+    background: #303030;
+margin: 0 auto;
+width: 60%;
+margin-top: 2rem;
+}
+
+.bg a {
+    font-size: 1.7rem;
+    color: white; 
+    text-decoration: none;
+}
+
+
+.plus {
+    font-size: 2.5rem;
+    float: right;
+   }
+
+   .ready {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.1rem;
+   }
+
+
+   #footer a {
+    text-decoration: none;
+    color: #3f4243;
+    font-size: 0.9rem;
+   }
+
+
+   .footer_links {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 17rem;
+   }
+
+
+   #footer a:hover {
+text-decoration: underline;
+   }
+
+   .a a, .b a, .c a, .d a {
+    display: block;
+    margin-right: 6rem;
+    margin-top: 1rem;
+   }
+
+   .nig {
+    color: #3f4243;
+    text-decoration: none;
+   }
+
+   .buttonIn {
+    width: 300px;
+    position: relative;
+}
+ 
+input {
+    outline: none;
+    margin-top: 1.6rem;
+    padding: 1.3rem 1rem;
+    width: 32rem;
+    border: none;
+margin-left: 22rem;
+margin-bottom: 5rem;
+color: #3f4243;
+}
+ 
+.get_started_btn {
+    position: absolute;
+    top: 0;
+    right: -252%;
+    z-index: 2;
+    top: 2px;
+    width: 12rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    background: #e50914;
+    padding: 1.3rem 1rem;
+    float: right;
+    margin-top: 1.5rem;
+}
