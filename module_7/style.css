@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(230, 226, 226);
+}
+
+.nav {
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.logo {
+    width: 7rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+}
+
+input {
+    width: 20rem;
+outline: none;
+border-radius: 3px;
+border: 1px solid rgb(218, 214, 214);
+background: rgb(224, 219, 219);
+}
+
+input::placeholder {
+    padding-left: 2rem;
+}
+
+.home {
+    font-size: 2.4rem;
+    /* border-radius: 3px; */
+}
+
+.heart {
+    font-size: 2.2rem;
+}
+
+.user {
+    font-size: 1.4rem;
+    border: 1px solid black;
+}
+
+.add {
+    justify-content: space-between;
+}
+
+.add a {
+    border: none;
+    margin-right: 1.5rem;
+}
+
+
+.update_img {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+
+
+.main {
+    display: flex;
+    /* background: #000; */
+}
+
+.left {
+    flex: 2;
+    margin-left: 6rem;
+    /* background: green; */
+}
+
+.right {
+    /* margin-left: 3rem; */
+}
+
+
+.update {
+    display: flex;
+border: 1px solid rgb(209, 209, 209);
+padding: 1.5rem 1rem;
+}
+
+.update p {
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+
+.user_1 {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.suggestions {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.user_1 .update_img {
+    padding: 0;
+    border: 2px solid rgb(206, 203, 203)
+}
+
+.update_img {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.update_img_1 {
+    border: none;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+ 
+}
+
+.update_image {
+    width: 100%;
+}
+
+.timeline {
+    margin-top: 2rem;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+
+.timeline_details {
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.timeline_details p {
+    margin-top: 2.3rem;
+}
+
+.follow_1 {
+    border: none;
+    color: blue;
+    margin-top: 2.8rem;
+    margin-left: 3rem;
+}
+
+.follow_2 {
+    border: none;
+    color: blue;
+    margin-top: 2.8rem;
+    margin-left: 6.5rem;
+}
+
+.footer_links {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+}
+
+.f_links {
+    border: none;
+    color: gray;
+    margin-right: 0.3rem;
+}
+
+.copyright {
+    margin-top: 1rem;
+    color: gray;
+    margin-left: 4rem;
+    font-size: 0.8rem;
+}
+
+.details {
+margin-top: 2rem;
+}
+
+.details p:nth-of-type(2) {
+    padding-top: 0.3rem;
+    color: gray;
+}
+
+.follow .user_1 {
+    margin-top: 1rem;
+}
+
+.suggestions p:nth-of-type(1) {
+    color: gray;
+}
+
+.suggestions p:nth-of-type(2) {
+    margin-left: 10rem;
+}
+
+.tomi {
+    border: none;
+    color: blue;
+    margin-top: 2.8rem;
+    margin-left: 6rem;
+}
+
+.dots {
+    margin-left: 21rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+.main a {
+    margin: 0 auto;
+    width: 10%;
+}
+
+.update {
+display: flex;
+}
+
+.update .a, .update .b, .update .c, .update .d {
+margin-right: 1.3rem;
+}
+
+.update_img {
+    padding: 0.3rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+
+.update .b p {
+    text-overflow:ellipsis;
+}
+
+.body_a {
+    display: flex;
+    padding: 0.8rem;
+}
+
+
+
+
+.user_1 {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.suggestions {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.footer_links {
+    display: flex;
+}
+
+.f_links {
+    color: gray;
+    margin-right: 2rem;
+}
+*/
